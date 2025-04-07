@@ -1,0 +1,24 @@
+<configuration xmlns="http://saxon.sf.net/ns/configuration"
+               edition="HE"
+               label="dddoooccc.org xsl packages">
+    <xsltPackages>
+        <package name="urn:dddoooccc.org:ns:xslt:pkg:fo:layout-master-sets:book" 
+        version="0.0.1" 
+        sourceLocation="layout-master-sets/book/book.xsl"/>
+        <package name="urn:dddoooccc.org:ns:xslt:pkg:fo:layout-master-sets:book:mainmatter" 
+        version="0.0.1" 
+        sourceLocation="layout-master-sets/book/mainmatter.xsl"/>
+        <package name="urn:dddoooccc.org:ns:xslt:pkg:fo:layout-master-sets:book:frontmatter" 
+        version="0.0.1" 
+        sourceLocation="layout-master-sets/book/frontmatter.xsl"/>
+        <package name="urn:dddoooccc.org:ns:xslt:pkg:fo:layout-master-sets:book:backmatter" 
+        version="0.0.1" 
+        sourceLocation="layout-master-sets/book/backmatter.xsl"/>
+        <package name="urn:dddoooccc.org:ns:xslt:pkg:fo:layout-master-sets:book:covers" 
+        version="0.0.1" 
+        sourceLocation="layout-master-sets/book/covers.xsl"/>
+        <package name="urn:dddoooccc.org:ns:xslt:pkg:fo:layout-master-sets:book:default" 
+        version="0.0.1" 
+        sourceLocation="layout-master-sets/book/default.xsl"/>
+    </xsltPackages>
+</configuration>
